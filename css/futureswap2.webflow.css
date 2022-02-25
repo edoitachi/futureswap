@@ -807,7 +807,17 @@ body {
 }
 
 .header-roadmap {
-	margin-bottom: 2.5rem;
+	padding: 30px 70px;
+	text-align: center;
+}
+.bg-red {
+	background-color: #ef466f;
+}
+.bg-green {
+	background-color: #45b26b;
+}
+.bg-blue {
+	background-color: #3772ff;
 }
 .box-form__filter .box-filter .text-link,
 .box-form__filter .box-filter .boxed-roadmap .box-roadmap .label-roadmap,
@@ -1091,7 +1101,10 @@ body {
 		margin: 1.33333rem 0;
 	}
 }
-
+.slick-arrow.btn-next,
+.btn-circle.btn-next {
+	background-image: url(../images/arrow-right.svg);
+}
 .s3 {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -2777,6 +2790,9 @@ body {
 	._404-logo-link {
 		top: 35px;
 	}
+}
+.ms-2 {
+	margin-left: 2rem !important;
 }
 
 @font-face {
